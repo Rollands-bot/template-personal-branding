@@ -138,6 +138,16 @@
     </div>
   </section>
 
+  <footer class="bg-gray-100 dark:bg-gray-900 text-center py-4 text-sm text-gray-600 dark:text-gray-400">
+  © <span id="year"></span> tunggukapan.com . All rights reserved.
+</footer>
+
+<script>
+  // Auto-update tahun
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+
   <!-- AOS & TOGGLE SCRIPT -->
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script>
